@@ -14,13 +14,13 @@ public class PiramideAsteriscos {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner piramide= new Scanner(System.in);
-        System.out.println("Ingresa el numero de filas: ");
-        int filas = piramide.nextInt();
+        System.out.println("Ingresa la Altura: ");
+        int altura = piramide.nextInt();
         piramide.close();
         
         System.out.println();
-        for(int alto = 1; alto <= filas; alto++){
-            for(int espacio= 1; espacio <= filas-alto; espacio++){
+        for(int alto = 1; alto <= altura; alto++){
+            for(int espacio= 1; espacio <= altura-alto; espacio++){
                 System.out.print(" ");
             }
             
