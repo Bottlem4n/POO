@@ -12,9 +12,7 @@ public class RomboAsteriscos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner rombo= new Scanner(System.in);
-        
-        
+        Scanner rombo= new Scanner(System.in);  
         System.out.println();
         int altura = 2;
         do{
