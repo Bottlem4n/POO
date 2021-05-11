@@ -35,7 +35,7 @@ public class RegistroHorario {
         
         System.out.println("----------Catalogo Horarios----------");
         
-        /*do{
+        do{
             String statusHorario = "";
             System.out.println("Teclee ID del Horario: ");
             String idHorario = teclado.nextLine();
@@ -82,7 +82,7 @@ public class RegistroHorario {
             System.out.println("Desea hacer otro registro (S/N): ");
             nuevoRegistro = teclado.nextLine().toUpperCase();
             
-        }while("S".equals(nuevoRegistro));*/
+        }while("S".equals(nuevoRegistro));
         
         System.out.println("----------Descripción Horarios----------");
         
